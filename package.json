@@ -11,6 +11,10 @@
     "type": "git",
     "url": "git+https://github.com/cherniavskii/react-use-ref-effect.git"
   },
+  "peerDependencies": {
+    "react": "16.7.0-alpha.0"
+  },
+  "dependencies": {},
   "author": "cherniavskii",
   "license": "MIT",
   "bugs": {
