@@ -28,7 +28,9 @@ import useRefEffect from 'react-use-ref-effect';
 import Class from './Class';
 
 funtion Component() {
-  const classRef = useRefEffect(() => new Class(), []);
+  const classRef = useRefEffect(() => {
+    classRef.current = new Class();
+  }, []);
   return null;
 }
 ```
@@ -56,4 +58,4 @@ funtion Component() {
 const ref = useRefEffect(fn, [inputs])
 ```
 
-`useRefEffect` will invoke `fn` function in `useEffect` hook and return a mutable ref object whose `.current` property will contain the return value of `fn` after `useEffect` is done.
+`useRefEffect` create and return ref using `useRef` under the hood and passes `fn` function to `useEffect` hook.
