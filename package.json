@@ -2,7 +2,12 @@
   "name": "react-use-ref-effect",
   "version": "0.1.0",
   "description": "React Hook that combines useRef and useEffect hooks.",
-  "keywords": ["react", "hooks", "effect", "ref"],
+  "keywords": [
+    "react",
+    "hooks",
+    "effect",
+    "ref"
+  ],
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
