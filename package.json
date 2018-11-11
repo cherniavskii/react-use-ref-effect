@@ -1,0 +1,20 @@
+{
+  "name": "react-use-ref-effect",
+  "version": "0.1.0",
+  "description": "React Hook that combines useRef and useEffect hooks.",
+  "keywords": ["react", "hooks", "effect", "ref"],
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cherniavskii/react-use-ref-effect.git"
+  },
+  "author": "cherniavskii",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cherniavskii/react-use-ref-effect/issues"
+  },
+  "homepage": "https://github.com/cherniavskii/react-use-ref-effect#readme"
+}
