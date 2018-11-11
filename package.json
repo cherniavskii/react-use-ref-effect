@@ -1,6 +1,6 @@
 {
   "name": "react-use-ref-effect",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "React Hook that combines useRef and useEffect hooks.",
   "keywords": [
     "react",
